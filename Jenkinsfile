@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'hello world'
         script {
-          test1/echo1
+          test1/echo1.sh
         }
 
       }
