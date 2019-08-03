@@ -6,7 +6,7 @@ pipeline {
         echo 'hello world'
         dir(path: 'DevOps') {
           git 'https://github.com/donbohman/devops.git'
-          bat(script: 'echo1.bat', returnStatus: true)
+          bat(script: '.\\test1\\echo1.bat', returnStatus: true)
         }
 
       }
