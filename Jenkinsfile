@@ -4,10 +4,7 @@ pipeline {
     stage('Branch Detection') {
       steps {
         echo 'hello world'
-        script {
-          test1/echo1.sh
-        }
-
+        git 'https://github.com/donbohman/devops.git'
       }
     }
   }
