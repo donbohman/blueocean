@@ -6,7 +6,7 @@ pipeline {
         echo 'hello world'
         dir(path: 'DevOps') {
           git 'https://github.com/donbohman/devops.git'
-          bat '. DevOps/echo.sh'
+          bat '. DevOps/echo1.sh'
         }
 
       }
